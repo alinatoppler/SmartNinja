@@ -1,0 +1,23 @@
+#Alina - Exercise 1.1: Mood checker
+
+print("Hi beautiful person, how are you feeling today?")
+mood=input("Let us know if you feel happy, sad, nervous,relaxed or excited (please use small letters)")
+
+if mood=="happy":
+    print("Awesome! It's great to see you happy!")
+
+elif mood=="sad":
+    print("Oh noa, sorry to hear that! We all feel sad every now and then")
+
+elif mood=="nervous":
+    print("We all file like that sometimes, no need to worry, everything is fine")
+    print("Take 3 deep breaths")
+
+elif mood=="relaxed":
+    print("Glad to hear that! A lot of great things can come from an relaxed state of mind")
+
+elif mood=="excited":
+    print("Wow! we are excited that you are excited :P Embrace this intense feeling")
+
+else:
+    print("I am sorry, I don't recognize this mood")
