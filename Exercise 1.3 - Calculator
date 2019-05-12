@@ -1,0 +1,24 @@
+#Alina - Exercise 1.3: Calculator
+
+number1=input("Enter a number:")
+operation=input("Which calculation would you like to do?")
+number2=input("Enter another number for the calculation")
+
+number1:int=int(number1)
+number2:int=int(number2)
+
+if operation=="+":
+    result=number1+number2
+elif operation=="-":
+    result=number1-number2
+elif operation=="/":
+    if number2==0:
+        print("Sorry, only Chuck Norris can divide by zero")
+        result="undefined"
+    else:
+        result=number1/number2
+elif operation=="*":
+    result=number1*number2
+
+result=str(result)
+print("The result is "+result)
