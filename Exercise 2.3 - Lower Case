@@ -1,0 +1,4 @@
+yes=input("Would you like to continue? yes/no: ")
+
+if (input.isupper()) == True:
+    print(answer.lower())
