@@ -1,4 +1,4 @@
-yes=input("Would you like to continue? yes/no: ")
-
-if (input.isupper()) == True:
-    print(answer.lower())
+#Exercise 2.3 - Lower case
+                        
+string=input("Would you like to continue?") 
+print(string.lower())                       
